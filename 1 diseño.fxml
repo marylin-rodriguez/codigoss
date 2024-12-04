@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.ParallelCamera?>
+<?import javafx.scene.PointLight?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene fill="#310b36" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="545.0" prefWidth="746.0" style="-fx-background-color: darkviolet;">
+      <children>
+         <TextArea layoutX="51.0" layoutY="159.0" prefHeight="253.0" prefWidth="449.0" />
+         <MenuButton layoutX="151.0" layoutY="84.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0">
+           <items>
+             <MenuItem mnemonicParsing="false" text="Action 1" />
+             <MenuItem mnemonicParsing="false" text="Action 2" />
+           </items>
+            <font>
+               <Font size="14.0" />
+            </font>
+         </MenuButton>
+         <Button layoutX="336.0" layoutY="84.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="96.0" text="Agregar">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+         <Button layoutX="474.0" layoutY="85.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="87.0" text="Eliminar">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Button>
+         <Label layoutX="540.0" layoutY="187.0" prefHeight="31.0" prefWidth="67.0" text="Vendedor" textFill="#fcaf15">
+            <font>
+               <Font name="Arial Bold" size="14.0" />
+            </font>
+         </Label>
+         <MenuButton layoutX="524.0" layoutY="240.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0">
+           <items>
+             <MenuItem mnemonicParsing="false" text="Action 1" />
+             <MenuItem mnemonicParsing="false" text="Action 2" />
+           </items>
+            <font>
+               <Font size="14.0" />
+            </font>
+         </MenuButton>
+         <Label layoutX="550.0" layoutY="302.0" prefHeight="35.0" prefWidth="54.0" text="Cliente" textFill="#ffb217">
+            <font>
+               <Font name="Arial Bold" size="14.0" />
+            </font>
+         </Label>
+         <MenuButton layoutX="524.0" layoutY="350.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="114.0">
+           <items>
+             <MenuItem mnemonicParsing="false" text="Action 1" />
+             <MenuItem mnemonicParsing="false" text="Action 2" />
+           </items>
+            <font>
+               <Font name="Arial Bold" size="14.0" />
+            </font>
+         </MenuButton>
+         <Button layoutX="52.0" layoutY="453.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="Total">
+            <font>
+               <Font name="Arial" size="14.0" />
+            </font>
+         </Button>
+         <Label layoutX="65.0" layoutY="82.0" prefHeight="35.0" prefWidth="63.0" text="Producto" textFill="#faae15">
+            <font>
+               <Font name="Arial" size="14.0" />
+            </font>
+         </Label>
+         <Button layoutX="53.0" layoutY="504.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Refrescar">
+            <font>
+               <Font name="Arial" size="14.0" />
+            </font>
+         </Button>
+         <Label layoutX="171.0" layoutY="448.0" prefHeight="37.0" prefWidth="16.0" text="0" textFill="#fcaf15">
+            <font>
+               <Font name="Arial" size="14.0" />
+            </font>
+         </Label>
+         <Button layoutX="527.0" layoutY="449.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" text="Descuento">
+            <font>
+               <Font name="Arial" size="14.0" />
+            </font>
+         </Button>
+         <Button layoutX="529.0" layoutY="497.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="97.0" text="Facturar">
+            <font>
+               <Font name="Arial" size="14.0" />
+            </font>
+         </Button>
+         <Label layoutX="336.0" layoutY="14.0" prefHeight="48.0" prefWidth="61.0" text="Facturar" textFill="#faae15">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+         <AnchorPane prefHeight="545.0" prefWidth="746.0" style="-fx-background-color: darkviolet;">
+            <children>
+               <TextArea layoutX="51.0" layoutY="159.0" prefHeight="253.0" prefWidth="449.0" />
+               <MenuButton layoutX="151.0" layoutY="84.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0">
+                  <items>
+                     <MenuItem mnemonicParsing="false" text="Action 1" />
+                     <MenuItem mnemonicParsing="false" text="Action 2" />
+                  </items>
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </MenuButton>
+               <Button layoutX="336.0" layoutY="84.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="96.0" text="Agregar">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+               <Button layoutX="474.0" layoutY="85.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="87.0" text="Eliminar">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+               <Label layoutX="540.0" layoutY="187.0" prefHeight="31.0" prefWidth="67.0" text="Vendedor" textFill="#fcaf15">
+                  <font>
+                     <Font name="Arial Bold" size="14.0" />
+                  </font>
+               </Label>
+               <MenuButton layoutX="524.0" layoutY="240.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0">
+                  <items>
+                     <MenuItem mnemonicParsing="false" text="Action 1" />
+                     <MenuItem mnemonicParsing="false" text="Action 2" />
+                  </items>
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </MenuButton>
+               <Label layoutX="550.0" layoutY="302.0" prefHeight="35.0" prefWidth="54.0" text="Cliente" textFill="#ffb217">
+                  <font>
+                     <Font name="Arial Bold" size="14.0" />
+                  </font>
+               </Label>
+               <MenuButton layoutX="524.0" layoutY="350.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="114.0">
+                  <items>
+                     <MenuItem mnemonicParsing="false" text="Action 1" />
+                     <MenuItem mnemonicParsing="false" text="Action 2" />
+                  </items>
+                  <font>
+                     <Font name="Arial Bold" size="14.0" />
+                  </font>
+               </MenuButton>
+               <Button layoutX="52.0" layoutY="453.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="Total">
+                  <font>
+                     <Font name="Arial" size="14.0" />
+                  </font>
+               </Button>
+               <Label layoutX="65.0" layoutY="82.0" prefHeight="35.0" prefWidth="63.0" text="Producto" textFill="#faae15">
+                  <font>
+                     <Font name="Arial" size="14.0" />
+                  </font>
+               </Label>
+               <Button layoutX="53.0" layoutY="504.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Refrescar">
+                  <font>
+                     <Font name="Arial" size="14.0" />
+                  </font>
+               </Button>
+               <Label layoutX="171.0" layoutY="448.0" prefHeight="37.0" prefWidth="16.0" text="0" textFill="#fcaf15">
+                  <font>
+                     <Font name="Arial" size="14.0" />
+                  </font>
+               </Label>
+               <Button layoutX="527.0" layoutY="449.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" text="Descuento">
+                  <font>
+                     <Font name="Arial" size="14.0" />
+                  </font>
+               </Button>
+               <Button layoutX="529.0" layoutY="497.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="97.0" text="Facturar">
+                  <font>
+                     <Font name="Arial" size="14.0" />
+                  </font>
+               </Button>
+               <Label layoutX="336.0" layoutY="14.0" prefHeight="48.0" prefWidth="61.0" text="Facturar" textFill="#faae15">
+                  <font>
+                     <Font name="System Bold" size="14.0" />
+                  </font>
+               </Label>
+            </children>
+         </AnchorPane>
+         <ParallelCamera />
+         <AmbientLight color="CHARTREUSE" lightOn="true" />
+         <ParallelCamera />
+         <PointLight color="CHARTREUSE" lightOn="true" AnchorPane.bottomAnchor="546.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="747.0" AnchorPane.topAnchor="0.0" />
+      </children></AnchorPane>
+</Scene>
